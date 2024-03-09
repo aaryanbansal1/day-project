@@ -1,0 +1,596 @@
+.head {
+    background-color: rgba(25, 25, 25, 0.95);
+}
+
+.nav_bar {
+    background-color: black;
+    color: white;
+}
+
+.nav_bar p {
+    padding-left: 80px;
+}
+
+.nav_bar span {
+    padding-left: 20px;
+}
+
+.heading {
+    width: 40%;
+    font-size: xx-large;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #e40016;
+    --bs-nav-pills-border-radius: 0;
+}
+
+.nav-link.active {
+    height: 70px;
+    padding-top: 20px;
+}
+
+.nav-link {
+    height: 70px;
+    padding-top: 20px;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #ffffff;
+    --bs-nav-link-hover-color: #0d6efd;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style: none;
+    --bs-nav-link-active-bg-hover-color: red;
+    height: 100%;
+}
+
+.nav-item:hover {
+    background-color: red;
+}
+
+.big-banner {
+    background-image: url(../../assets/images/land11.jpg);
+}
+
+.hero-text {
+    color: white;
+    margin-top: 18%;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+.hero-text h4 {
+    font-weight: 400;
+}
+
+.btn-default {
+    border-color: white;
+    border-radius: 0;
+    color: white;
+    margin-top: 25px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.btn-default:hover {
+    border: none;
+    background-color: red;
+}
+
+.row {
+    margin-top: 70px
+}
+
+.Services .row {
+    margin-top: 0%;
+}
+.Service_title span {
+    color: #f4f4f4;
+    left: 0;
+    right: 0px;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 0;
+    top: 13px;
+    position: relative;
+}
+
+.portfolio_title span {
+    color: #f4f4f4;
+    left: 0;
+    right: 0px;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 0;
+    top: 13px;
+    position: relative;
+}
+
+.pricing_title span {
+    color: #f4f4f4;
+    left: 0;
+    right: 0px;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 0;
+    top: 13px;
+    position: relative;
+}
+.Team_title span {
+    color: #f4f4f4;
+    left: 0;
+    right: 0px;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 0;
+    top: 13px;
+    position: relative;
+}
+.contact_title span {
+    color: #f4f4f4;
+    left: 0;
+    right: 0px;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 0;
+    top: 13px;
+    position: relative;
+}
+
+
+
+
+
+.p-3 {
+    padding: 28px !important;
+    padding-top: 40px !important;
+    padding-bottom: 50px !important;
+}
+.why-us p {
+    color: #9b9b9b;
+    padding-top: 10px;
+}
+section.clients {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+section.Services {
+    text-align: center;
+}
+
+.Service_title {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.CTA_button button.btn.btn-outline-danger {
+    color: white;
+    border: white solid 2px;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.CTA_button button.btn.btn-outline-danger:hover {
+    border: none;
+}
+
+.CTA {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: white;
+}
+
+.portfolio_title {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.Portfolio ul {
+    text-align: center;
+    list-style: none;
+}
+
+.Portfolio ul li {
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.Portfolio .row {
+    margin-top: 30px;
+}
+
+.filter-app:hover {
+    color: #cc1616;
+}
+
+.filter-card:hover {
+    color: #cc1616;
+}
+
+.filter-web:hover {
+    color: #cc1616;
+}
+
+.pricing_title {
+    text-align: center;
+}
+
+.Free_list li {
+    padding-bottom: 10px;
+}
+
+.business_list li {
+    padding-bottom: 10px;
+}
+
+.developer_list li {
+    padding-bottom: 10px;
+}
+
+.buynow-button .btn-outline-danger {
+    background-color: rgb(204, 8, 8);
+    color: white;
+    border-radius: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.buynow-button .btn-outline-danger:hover{
+    background-color: red;
+}
+
+.buynow_button .btn-outline-danger {
+    background-color: rgb(204, 8, 8);
+    color: white;
+    border-radius: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.buynow_button .btn-outline-danger:hover {
+    background-color: white;
+    color: red;
+}
+
+.contain_text {
+    padding-bottom: 20px;
+}
+
+.overline {
+    text-decoration: line-through;
+}
+
+.contain_text sup {
+    font-size: 20px;
+    top: -15px;
+    left: 6px;
+}
+
+.contain_text span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contain_text h4 {
+    font-size: 40px;
+    color: #e40016;
+    font-weight: 400;
+}
+
+.Team_title {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image {
+    padding-bottom: 30px;
+}
+
+.content h8 {
+    font-size: smaller;
+}
+
+.content h6 {
+    margin-bottom: 0%;
+}
+
+.content p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #a2a2a2
+}
+
+.contact_title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact .row {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact_icon {
+    font-size: 30px;
+    color: red;
+    padding-bottom: 5px;
+}
+
+.contact_content {
+    color: #6b6a6a;
+}
+
+.contact_content h5 {
+    font-weight: bold;
+}
+
+.p-3 {
+    padding: 28px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#yourname,
+#youremail,
+#subject,
+#message {
+    width: 100%;
+    padding: 7px;
+    padding-left: 15px;
+}
+
+.sendmsg-button .btn-outline-danger {
+    background-color: rgb(204, 8, 8);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+
+}
+
+.sendmsg-button {
+    margin-bottom: 15px;
+}
+
+.sendmsg-button .btn-outline-danger:hover {
+    background-color: red;
+}
+
+input#subject {
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.Day {
+    height: 100%;
+    background-color: #191919
+}
+
+.Day_content li {
+    list-style: none;
+}
+
+.Day h3 {
+    font-size: 40px;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ul.Day_content {
+    padding-left: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bar {
+    height: 4px;
+    background-color: #cc1616;
+}
+
+ul.Useful_links {
+    padding-left: 0;
+    line-height: 35px;
+}
+
+.Useful_links li {
+    list-style: none;
+}
+
+ul.Our_services {
+    padding-left: 0;
+    line-height: 35px;
+}
+
+.Our_services li {
+    list-style: none;
+}
+
+i.bi.bi-chevron-right {
+    color: red;
+    font-size: 10px;
+    padding-right: 4px;
+}
+
+.Subscribe-button {
+    background-color: rgb(204, 8, 8);
+    color: white;
+}
+
+.Subscribe-button:hover {
+    background-color: red;
+}
+
+input#Subscribe {
+    font-size: 26px;
+}
+
+input.Subscribe-button {
+    vertical-align: bottom;
+    padding: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+section.contact {
+    margin-bottom: 20px;
+}
+
+.footer_social_media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer_social_media {
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.twitter i.bi.bi-twitter {
+    padding: 4px 8px 4px 8px;
+    border-radius: 50%;
+    background-color: #605e5e;
+}
+
+.twitter i.bi.bi-twitter:hover {
+    background-color: red;
+}
+
+.facebook i.bi.bi-facebook {
+    padding: 4px 8px 4px 8px;
+    border-radius: 50%;
+    background-color: #605e5e;
+}
+
+.facebook i.bi.bi-facebook:hover {
+    background-color: red;
+}
+
+.instagram i.bi.bi-instagram {
+    padding: 4px 8px 4px 8px;
+    border-radius: 50%;
+    background-color: #605e5e;
+}
+
+.instagram i.bi.bi-instagram:hover {
+    background-color: red;
+}
+
+.google i.bi.bi-google {
+    padding: 4px 8px 4px 8px;
+    border-radius: 50%;
+    background-color: #605e5e;
+}
+
+.google i.bi.bi-google:hover {
+    background-color: red;
+}
+
+.linkedin i.bi.bi-linkedin {
+    padding: 4px 8px 4px 8px;
+    border-radius: 50%;
+    background-color: #605e5e;
+}
+
+.linkedin i.bi.bi-linkedin:hover {
+    background-color: red;
+}
+
+.social_media {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social_media a {
+    color: #686666;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+.social_media a:hover {
+    color: red;
+}
+
+.clients img{
+        padding-top: 35px;
+        padding-bottom: 25px;
+        filter: grayscale(1);
+        transition: all 0.4s ;
+        
+}
+.clients img:hover {
+
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+i.bi.bi-envelope-open {
+    background-color: #cb0404;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.Services .row h4 {
+    margin-top: 25px;
+}
+
+i.bi.bi-file-earmark-medical, i.bi.bi-speedometer, i.bi.bi-globe, i.bi.bi-play-btn,i.bi.bi-bookmark {
+    background-color: #cb0404;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
